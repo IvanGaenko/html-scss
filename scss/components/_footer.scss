@@ -1,0 +1,22 @@
+.footer {
+  background-color: $grey-light;
+  padding: 18px 0;
+}
+
+.footer-social {
+  @extend .flex;
+  @extend .justify-center;
+  @extend .items-center;
+  margin-left: 20px;
+}
+
+.footer-container {
+  @extend .flex;
+  @extend .justify-center;
+  @extend .direction-column;
+
+  @media (min-width: $breakpoint-sm-min) {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  background-color: $grey-light;
+  padding: 13px 0;
+  z-index: 10;
+}
+
+.header-nav {
+  margin: 0 -12px;
+}
+
+.header-wrap {
+  background-color: $grey-light;
+  position: relative;
+  z-index: 10;
+}
+
+.header-logo {
+  display: block;
+  flex: 0 0 auto;
+}
+
+.header-logo-img {
+  display: block;
+  width: 218px;
+  height: 48px;
+}
+
+.header-inner {
+  padding: 24px 0;
+}
+
+.header-controls {
+  flex: 1 1 auto;
+}

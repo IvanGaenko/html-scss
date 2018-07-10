@@ -1,0 +1,18 @@
+.nav-list {
+  @extend .flex;
+  @extend .items-center;
+  @extend .direction-column;
+  height: 100%;
+  overflow-y: auto;
+  @media (min-width: $breakpoint-sm-min) {
+    flex-direction: row;
+  }
+
+  .footer & {
+    flex-direction: row;
+  }
+}
+
+.nav-link {
+  @extend .link;
+}

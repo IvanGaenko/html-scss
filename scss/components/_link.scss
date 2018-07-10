@@ -1,0 +1,18 @@
+.link {
+  @extend .flex;
+  @extend .items-center;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover,
+  &:focus {
+    color: $green;
+  }
+
+  &--underline {
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}

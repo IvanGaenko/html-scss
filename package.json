@@ -1,0 +1,25 @@
+{
+  "name": "Template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "font-awesome": "^4.7.0",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-connect": "latest",
+    "gulp-kit": "latest",
+    "gulp-livereload": "latest",
+    "gulp-prettify": "latest",
+    "gulp-sass": "latest"
+  },
+  "dependencies": {
+    "node-sass": "latest"
+  }
+}

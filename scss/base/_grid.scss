@@ -1,0 +1,72 @@
+@import "../mixins/grid";
+.row {
+  @include row;
+  &>[class*=col-] {
+    @include col;
+  }
+  &--centered {
+    justify-content: center;
+  }
+  &--space-between {
+    justify-content: space-between;
+  }
+  &--wrap {
+    flex-wrap: wrap;
+  }
+  &--stretch {
+    align-items: stretch;
+  }
+  &.m-col {
+    @media (max-width: $breakpoint-xs-max) {
+      flex-direction: column;
+      margin: 0;
+      &>[class*=col-] {
+        padding: 15px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-xs-min) {
+  @include col-width (xs);
+}
+
+@media (min-width: $breakpoint-sm-min) {
+  @include col-width (sm);
+}
+
+@media (min-width: $breakpoint-md-min) {
+  @include col-width (md);
+}
+
+@media (min-width: $breakpoint-lg-min) {
+  @include col-width (lg);
+}
+
+@media (min-width: $breakpoint-rg-min) {
+  @include col-width (rg);
+}
+
+@media (min-width: $breakpoint-xl-min) {
+  @include col-width (xl);
+}
+
+@media (min-width: $breakpoint-sm-min) {
+  @include col-offset (sm);
+}
+
+@media (min-width: $breakpoint-md-min) {
+  @include col-offset (md);
+}
+
+@media (min-width: $breakpoint-rg-min) {
+  @include col-offset (rg);
+}
+
+@media (min-width: $breakpoint-lg-min) {
+  @include col-offset (lg);
+}
+
+@media (min-width: $breakpoint-xl-min) {
+  @include col-offset (xl);
+}
