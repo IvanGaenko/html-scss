@@ -10,13 +10,10 @@
   "license": "",
   "devDependencies": {
     "browser-sync": "latest",
-    "font-awesome": "^4.7.0",
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
     "gulp-connect": "latest",
-    "gulp-kit": "latest",
     "gulp-livereload": "latest",
-    "gulp-prettify": "latest",
     "gulp-sass": "latest"
   },
   "dependencies": {
