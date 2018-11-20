@@ -9,12 +9,12 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "browser-sync": "latest",
-    "gulp": "latest",
-    "gulp-autoprefixer": "latest",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-connect": "latest",
     "gulp-livereload": "latest",
-    "gulp-sass": "latest"
+    "gulp-sass": "^4.0.2"
   },
   "dependencies": {
     "node-sass": "latest"
