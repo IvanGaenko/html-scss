@@ -1,3 +1,4 @@
+<!--Variant 13 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,11 +12,14 @@
     <div class="container">
       <div class="content">
         <header class="header">
+          <!-- @TODO классы не идут от родителя. Используй header-nav > header-logo -->
           <nav class="nav-header">
             <div class="head-logo">
               <img src="/" alt="logo">
             </div>
+            <!-- @TODO не на всех элементах есть классы, исправь по всему проекту -->
             <ul>
+            <!-- @TODO nav-about, nav-services и т.д. чем-то отличаются? нет смысла на них делать разные классы. А вообще посмотри пример в презентахе -->
               <li><a href="/" class="nav-about">ABOUT</a></li>
               <li><a href="/" class="nav-services">SERVICES</a></li>
               <li><a href="/" class="nav-tours">TOURS</a></li>
@@ -30,6 +34,7 @@
     <main class="main">
       <div class="container">
         <div class="content">
+          <!-- @TODO не используй цифры в именовании классов -->
           <div class="field-one">
             <div class="field-one-upper">
               <div class="field-one-header">Information</div>
@@ -56,8 +61,12 @@
             </div>
           </div>
           <div class="field-two">
+            <!-- @TODO не делай пустые / лишние обертки. Исправь по проекту-->
             <div>
+              <!-- @TODO вообще беда с классами: очень длинные, не основываются на родителе, порядок элементов указан как часть класса... -->
               <div class="field-two-text-part-left">
+                <div class="field-two">
+                <!-- @TODO вообще нет заголовков -->
                 <div>PROJECT</div>
                 <div>At vero eos et accusamus et iusto odio dignissimos</div>
                 <div><a href="/">At vero eos et</a></div>
@@ -157,6 +166,7 @@
             </div>
           </div>
         </div>
+          <!-- @TODO нет закрывающего тега див -->
       </div>
     </main>
     <footer class="footer">
