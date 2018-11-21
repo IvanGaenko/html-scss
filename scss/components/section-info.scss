@@ -1,0 +1,79 @@
+$font-family: 'Open Sans', sans-serif;
+
+.section-info {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.section-upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 80px;
+}
+
+.section-header {
+    font-family: $font-family;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #282828;
+    max-width: 245px;
+    margin-bottom: 25px;
+}
+
+.section-header-text {
+    max-width: 485px;
+    font-family: $font-family;
+    font-size: 14px;
+    text-align: center;
+    color: #bdbdbd;
+}
+
+.section-phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pic-phone {
+    display: block;
+    border-radius: 5px;
+}
+
+.section-left-side {
+    text-align: right;
+    margin-right: 140px;
+}
+
+.section-right-side {
+    text-align: left;
+    margin-left: 140px;
+}
+
+.section-text-left,
+.section-text-right {
+    padding-top: 25px;
+    max-width: 150px;
+    font-family: $font-family;
+    font-size: 10px;
+    color: #bdbdbd;
+}
+
+.section-upper-side,
+.section-upper-side-down {
+    font-family: $font-family;
+    font-weight: bold;
+    font-size: 10px;
+    color: #757575;
+    padding-top: 100px;
+}
+
+.section-upper-side-down {
+    padding-top: 50px;
+    
+}

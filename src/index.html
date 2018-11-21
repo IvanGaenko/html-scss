@@ -18,42 +18,33 @@
     <header class="header">
       <div class="container">
         <nav class="header-content">
-            <div class="nav-logo">
-              <a href="/" class="nav-link-icon-home">
-                <img src="https://via.placeholder.com/35" alt="logo">
-              </a>
-            </div>
-            <ul class="nav-list">
-              <li class="nav-item">
-                <a href="/" class="nav-link">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a href="/" class="nav-link">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a href="/" class="nav-link">TOURS</a>
-              </li>
-              <li class="nav-item">
-                <a href="/" class="nav-link">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a href="/" class="nav-link">CONTACT</a>
-              </li>
-            </ul>
-            <div class="nav-search">
-              <a href="/" class="nav-link icon-search">
-                <img src="https://via.placeholder.com/18" alt="search">
-              </a>
+          <a href="/" class="nav-link-icon-home"><img src="https://via.placeholder.com/35" alt="logo"></a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="/" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-link">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-link">TOURS</a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-link">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-link">CONTACT</a>
             </li>
           </ul>
+          <a href="/" class="nav-link-icon-search"><img src="https://via.placeholder.com/18" alt="search"></a>
         </nav>
       </div>
     </header>
     <!-- @TODO не используй цифры в именовании классов -->
     <main class="main">
-      <div class="container">
-        <div class="main-content">
-          <section class="section">
+      <section class="section-info">
+        <div class="container-info">
+          <div class="content-info">
             <div class="section-upper">
               <h1 class="section-header">Information</h1>
               <p class="section-header-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -72,9 +63,7 @@
                     dignissimos</p>
                 </div>
               </div>
-              <div class="pic-phone">
-                <a href="/"><img src="https://via.placeholder.com/215x415" alt="phone"></a>
-              </div>
+              <a href="/"><img src="https://via.placeholder.com/215x415" class="pic-phone" alt="phone"></a>
               <div class="section-right-side">
                 <div class="section-right-side-up">
                   <h2 class="section-upper-side">SERVICE</h2>
@@ -88,7 +77,9 @@
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </div>
+      </section>
           <!-- @TODO не делай пустые / лишние обертки. Исправь по проекту-->
           <!-- @TODO вообще беда с классами: очень длинные, не основываются на родителе, порядок элементов указан как часть класса... -->
           <!-- @TODO вообще нет заголовков -->

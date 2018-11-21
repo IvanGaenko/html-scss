@@ -1,29 +1,17 @@
-@import "components/header.scss";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import "components/reset.scss";
+@import "components/header.scss";
+@import "components/section-info.scss";
 
 $font-family: 'Open Sans', sans-serif;
 
-.container {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
-}
 
-.header {
-    background-color: #757575;
-}
 
 .footer-content {
     height: 165px;
     background-color: #212121;
 }
 
-.header-content {
-    position: relative;
-    width: 100%;
-    height: 65px;   
-}
+
 
 .section,
 .section-color,
@@ -31,7 +19,6 @@ $font-family: 'Open Sans', sans-serif;
 .section-sub,
 .section-contacts-feedback {
     height: 800px;
-    border: solid 1px #757575;
     position: relative;
 }
 
@@ -54,45 +41,6 @@ $font-family: 'Open Sans', sans-serif;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-}
-
-.section-phone {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 80px;
-}
-
-.section-text-left,
-.section-text-right {
-    margin-top: 25px;
-    max-width: 150px;
-    font-family: $font-family;
-    font-size: 10px;
-    color: #bdbdbd;
-}
-
-.section-upper-side,
-.section-upper-side-down {
-    font-family: $font-family;
-    font-weight: bold;
-    font-size: 10px;
-    color: #757575;
-    margin-top: 100px;
-}
-
-.section-upper-side-down {
-    margin-top: 50px;
-}
-
-.section-left-side {
-    text-align: right;
-    margin-right: 140px;
-}
-
-.section-right-side {
-    text-align: left;
-    margin-left: 140px;
 }
 
 .metro-upper,
