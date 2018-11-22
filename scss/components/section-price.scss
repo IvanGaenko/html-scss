@@ -22,6 +22,14 @@ $font-family: 'Open Sans', sans-serif;
     margin-left: 10px;
 }
 
+.price:first-child {
+    margin-left: 0;
+}
+
+.price:last-child {
+    margin-right: 0;
+}
+
 .price-header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -32,6 +40,13 @@ $font-family: 'Open Sans', sans-serif;
     flex-direction: row;
     justify-content: center;
     color: #ffffff;
+}
+
+.price:hover {
+    border: 1px solid #bdbdbd7e;
+    .price-header {
+    background-color: #bdbdbd7e;
+    }
 }
 
 .price-content {

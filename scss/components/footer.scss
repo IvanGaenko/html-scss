@@ -59,11 +59,6 @@ $font-family: 'Open Sans', sans-serif;
     border-radius: 2px;
 }
 
-.footer-input:hover,
-.footer-button:hover {
-    border: 1px solid blue;
-}
-
 .footer-header {
     font-family: $font-family;
     font-size: 11px;
@@ -86,4 +81,8 @@ $font-family: 'Open Sans', sans-serif;
 
 .content-in {
     margin-right: 15px;
+}
+
+.content-in:last-child {
+    margin-right: 0;
 }

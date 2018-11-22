@@ -28,6 +28,8 @@ $font-family: 'Open Sans', sans-serif;
 .contacts-map {
     display: block;
     margin-bottom: 25px;
+    width: 100%;
+    min-width: 405px;
 }
 
 .adress-header {
@@ -76,6 +78,10 @@ $font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     width: 150px;
     height: 35px;
+}
+
+.feedback-button:hover {
+    background-color: #52b736c4;
 }
 
 .feedback-name::placeholder,

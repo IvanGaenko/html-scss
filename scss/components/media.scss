@@ -1,0 +1,135 @@
+@media (max-width: 768px) {
+
+    .section-right-side {
+        padding-left: 50px;
+    }
+
+    .section-left-side {
+        padding-right: 50px;
+    }
+    .metro {
+        display: block;
+    }
+    .content-price {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .price {
+        margin-left: 0;
+        margin-right: 10px; 
+    }
+    .price:last-child {
+        margin-right: 0;
+    }
+    .contacts-block {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .section-phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-upper {
+        margin-bottom: 0;
+    }
+    .section-left-side {
+        padding-top: 50px;
+        padding-right: 0;
+        padding-bottom: 25px;
+    }
+    .section-right-side {
+        padding-top: 50px;
+        padding-left: 0;
+        padding-bottom: 25px;
+    }
+    .section-side-up,
+    .section-up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-text-content {
+        text-align: center;
+    }
+    .metro {
+        display: block;
+    }
+    .metro-text {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .content-price {
+        display: block;
+    }
+    .price {
+        margin-bottom: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .price-title {
+        margin-bottom: 25px;
+    }
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe-input {
+        margin-bottom: 10px;
+    }
+    .subscribe-button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contacts {
+        display: block;
+    }
+    .contacts-block {
+        margin-right: 0;
+    }
+    .contacts-adress {
+        margin-bottom: 20px;
+    }
+    .contacts-map {
+        min-width: 100%;
+    }
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon-home,
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-content {
+        margin-bottom: 30px;
+    }
+    .footer-header,
+    .product-content,
+    .content-index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
