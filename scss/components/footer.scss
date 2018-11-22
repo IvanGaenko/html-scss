@@ -1,21 +1,12 @@
 $font-family: 'Open Sans', sans-serif;
 
 .footer {
-    height: 165px;
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
     background-color: #212121;
 }
 
-.footer-container {
-    width: 1200px;
-    position: relative;
-    margin: 0 auto;
-    padding-top: 45px;
-}
-
-.footer-content {
+.footer-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +18,7 @@ $font-family: 'Open Sans', sans-serif;
     height: 51px;
 }
 
-#footer-subscribe-input::placeholder {
+.footer-input::placeholder {
     padding-left: 20px;
     font-family: $font-family;
     font-weight: bold;
@@ -37,7 +28,7 @@ $font-family: 'Open Sans', sans-serif;
     color: #bdbdbd;
 }
 
-.footer-subscribe-validation {
+.footer-validation {
     color: #bdbdbd;
     font-family: $font-family;
     padding-top: 8px;
@@ -45,13 +36,13 @@ $font-family: 'Open Sans', sans-serif;
     display: none;
 }
 
-.footer-subscribe-form {
+.footer-form {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#footer-subscribe-input {
+.footer-input {
     width: 265px;
     height: 30px;
     background-color: transparent;
@@ -59,7 +50,7 @@ $font-family: 'Open Sans', sans-serif;
     border-radius: 2px;
 }
 
-.footer-subscribe-button {
+.footer-button {
     padding: 0;
     height: 30px;
     width: 30px;
@@ -68,15 +59,12 @@ $font-family: 'Open Sans', sans-serif;
     border-radius: 2px;
 }
 
-#footer-subscribe-input:hover,
-.footer-subscribe-button:hover {
+.footer-input:hover,
+.footer-button:hover {
     border: 1px solid blue;
 }
 
-.footer-product-header,
-.footer-contact-header,
-.footer-followus-header,
-.footer-subscribe-header {
+.footer-header {
     font-family: $font-family;
     font-size: 11px;
     color: #ffffff;
@@ -84,20 +72,18 @@ $font-family: 'Open Sans', sans-serif;
     margin-bottom: 15px;
 }
 
-.footer-product-content-index,
-.footer-contact-content-index,
-.footer-followus-content-index {
+.content-index {
     font-family: $font-family;
     font-size: 11px;
     color: #bdbdbd;
     margin-bottom: 10px;
 }
 
-.footer-followus-content {
+.followus-content {
     display: flex;
     flex-direction: row;
 }
 
-.footer-followus-content-in {
+.content-in {
     margin-right: 15px;
 }

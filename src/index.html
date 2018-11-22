@@ -107,7 +107,7 @@
       </div>
       <section class="section">
         <div class="container">
-          <h1 class="price-title">Price</h1>
+          <h2 class="price-title">Price</h2>
           <div class="content-price">
             <div class="price">
               <h1 class="price-header">START</h1>
@@ -181,52 +181,45 @@
       <section class="section">
         <div class="container">
           <div class="contacts">
-            <div class="contacts-feedback-block">
-              <div class="section-contacts">
-                <h1 class="section-contacts-header">Get in touch</h1>
-                <img src="https://via.placeholder.com/405x225" class="contacts-map" alt="contacts-map">
-                <div class="section-contacts-contain">
-                  <h2 class="section-contacts-contain-header">CONTACTS</h2>
-                  <div class="section-contacts-adress">
-                    <div class="section-contacts-location">
-                      <div class="section-contacts-location-pic"><img src="https://via.placeholder.com/12x17" alt="section-contacts-location-pic"></div>
-                      <p class="section-contacts-location-title">Rainbow @ Sunset (N), Spring Valley, NV 89118, USA</p>
-                    </div>
-                    <div class="section-contacts-mail">
-                      <div class="section-contacts-mail-pic"><img src="https://via.placeholder.com/12x10" alt="section-contacts-mail-pic"></div>
-                      <p class="section-contacts-mail-title">out.mail@ma.il</p>
-                    </div>
-                    <div class="section-contacts-phone">
-                      <div class="section-contacts-phone-pic"><img src="https://via.placeholder.com/13x13" alt="section-contacts-phone-pic"></div>
-                      <p class="section-contacts-phone-title">+1 378 640-8795</p>
-                    </div>
-                  </div>
+            <div class="contacts-block">
+              <h1 class="contacts-header">Get in touch</h1>
+              <img src="https://via.placeholder.com/405x225" class="contacts-map" alt="contacts-map">
+              <h2 class="adress-header">CONTACTS</h2>
+              <ul class="contacts-adress">
+                <li class="contacts-location">
+                  <img src="https://via.placeholder.com/12x17" class="location-pic" alt="pic"><p class="location-title">Rainbow @ Sunset (N), Spring Valley, NV 89118, USA</p>
+                </li>
+                <li class="contacts-mail">
+                  <img src="https://via.placeholder.com/12x10" class="mail-pic" alt="pic"><p class="mail-title">out.mail@ma.il</p>
+                </li>
+                <li class="contacts-phone">
+                    <img src="https://via.placeholder.com/13x13" class="phone-pic" alt="pic"><p class="phone-title">+1 378 640-8795</p>     
+                </li>
+              </ul>
+            </div>
+            <div class="feedback-block">
+              <h1 class="feedback-header">Mail us</h1>
+              <form action="/" class="feedback-form">
+                <div class="feedback-name-content">
+                  <label for="feedback-name" class="feedback-name-label"></label>
+                  <input type="text" placeholder="Name" id="feedback-name" class="feedback-name">
+                  <p class="feedback-validator">*field is empty</p>
                 </div>
-              </div>
-              <div class="section-feedback">
-                <h1 class="section-feedback-header">Mail us</h1>
-                <form action="/" class="section-feedback-form">
-                  <div class="feedback-input-name">
-                    <label for="feedback-input-name" class="feedback-input-name-label"></label>
-                    <input type="text" placeholder="Name" id="feedback-input-name">
-                    <p class="feedback-input-name-validator">*field is empty</p>
-                  </div>
-                  <div class="feedback-input-mail">
-                    <label for="feedback-input-mail" class="feedback-input-mail-label"></label>
-                    <input type="text" placeholder="E-mail" id="feedback-input-mail">
-                    <p class="feedback-input-mail-validator">*field is empty</p>
-                  </div>
-                  <div class="feedback-input-textcontent">
-                    <label for="feedback-input-textcontent" class="feedback-input-textcontent-label"></label>
-                    <input type="text" placeholder="Your text" id="feedback-input-textcontent">
-                    <p class="feedback-input-textcontent-validator">*field is empty</p>
-                  </div>
-                  <div class="feedback-input-submit">
-                    <p class="feedback-input-comment">At vero eos at accu</p>
-                    <button type="submit" class="feedback-input-button">BUTTON</button>
-                  </div>
-                </form>
-              </div>
+                <div class="feedback-mail-content">
+                  <label for="feedback-mail" class="feedback-mail-label"></label>
+                  <input type="text" placeholder="E-mail" id="feedback-mail" class="feedback-mail">
+                  <p class="feedback-validator">*field is empty</p>
+                </div>
+                <div class="feedback-text-content">
+                  <label for="feedback-textcontent" class="feedback-textcontent-label"></label>
+                  <input type="text" placeholder="Your text" id="feedback-textcontent" class="feedback-textcontent">
+                  <p class="feedback-validator">*field is empty</p>
+                </div>
+                <div class="feedback-submit">
+                  <p class="feedback-comment">At vero eos at accu</p>
+                  <button type="submit" class="feedback-button">BUTTON</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -234,45 +227,45 @@
     </main>
     <!-- @TODO нет закрывающего тега див -->
     <footer class="footer">
-      <div class="footer-container">
+      <div class="container">
+        <div class="footer-nav">
+          <img src="https://via.placeholder.com/51" class="footer-logo" alt="footer-logo" />
           <div class="footer-content">
-            <img src="https://via.placeholder.com/51" class="footer-logo" alt="footer-logo">
-            <div class="footer-product">
-              <h2 class="footer-product-header">PRODUCT</h2>
-              <ul class="footer-product-content">
-                  <li class="footer-product-content-index"><a href="/">About</a></li>
-                  <li class="footer-product-content-index"><a href="/">Services</a></li>
-                  <li class="footer-product-content-index"><a href="/">Tours</a></li>
-              </ul>
-            </div>
-            <div class="footer-contact">
-              <h2 class="footer-contact-header">CONTACT</h2>
-              <ul class="footer-contact-content">
-                  <li class="footer-contact-content-index"><a href="/">At vero eos</a></li>
-                  <li class="footer-contact-content-index"><a href="/">Iusto odio</a></li>
-                  <li class="footer-contact-content-index"><a href="/">Ducim</a></li>
-              </ul>
-            </div>
-            <div class="footer-followus">
-              <h2 class="footer-followus-header">FOLLOW US</h2>
-              <ul class="footer-followus-content">
-                  <li class="footer-followus-content-in"><a href="/"><img src="https://via.placeholder.com/23" alt="fb"></a></li>
-                  <li class="footer-followus-content-in"><a href="/"><img src="https://via.placeholder.com/23" alt="tw"></a></li>
-                  <li class="footer-followus-content-in"><a href="/"><img src="https://via.placeholder.com/23" alt="be"></a></li>
-              </ul>
-            </div>
-            <div class="footer-subscribe">
-              <h2 class="footer-subscribe-header">SUBSCRIBE</h2>
-              <form action="/" class="footer-subscribe-form">
-                <label for="footer-subscribe-input" class="footer-subscribe-input-label"></label>
-                <input type="text" placeholder="Enter your mail" id="footer-subscribe-input">
-                <button type="submit" class="footer-subscribe-button"></button>
-              </form>
-              <p class="footer-subscribe-validation">*field is empty</p>
-            </div>
+            <h2 class="footer-header">PRODUCT</h2>
+            <ul class="product-content">
+                <li><a href="/" class="content-index">About</a></li>
+                <li><a href="/" class="content-index">Services</a></li>
+                <li><a href="/" class="content-index">Tours</a></li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h2 class="footer-header">CONTACT</h2>
+            <ul class="contact-content">
+                <li><a href="/" class="content-index">At vero eos</a></li>
+                <li><a href="/" class="content-index">Iusto odio</a></li>
+                <li><a href="/" class="content-index">Ducim</a></li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h2 class="footer-header">FOLLOW US</h2>
+            <ul class="followus-content">
+                <li class="content-in"><a href="/"><img src="https://via.placeholder.com/23" alt="fb"></a></li>
+                <li class="content-in"><a href="/"><img src="https://via.placeholder.com/23" alt="tw"></a></li>
+                <li class="content-in"><a href="/"><img src="https://via.placeholder.com/23" alt="be"></a></li>
+            </ul>
+          </div>
+          <div class="footer-subscribe">
+            <h2 class="footer-header">SUBSCRIBE</h2>
+            <form action="/" class="footer-form">
+              <label for="footer-input" class="footer-input-label"></label>
+              <input type="text" placeholder="Enter your mail" id="footer-input" class="footer-input" />
+              <button type="submit" class="footer-button"></button>
+            </form>
+            <p class="footer-validation">*field is empty</p>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
