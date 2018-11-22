@@ -18,7 +18,7 @@
     <header class="header">
       <div class="container">
         <nav class="header-content">
-          <a href="/" class="nav-link-icon-home"><img src="https://via.placeholder.com/35" alt="logo"></a>
+          <a href="/"><img src="https://via.placeholder.com/35" class="icon-home" alt="logo"></a>
           <ul class="nav-list">
             <li class="nav-item">
               <a href="/" class="nav-link">ABOUT</a>
@@ -36,14 +36,14 @@
               <a href="/" class="nav-link">CONTACT</a>
             </li>
           </ul>
-          <a href="/" class="nav-link-icon-search"><img src="https://via.placeholder.com/18" alt="search"></a>
+          <a href="/"><img src="https://via.placeholder.com/18" class="icon-search" alt="search"></a>
         </nav>
       </div>
     </header>
     <!-- @TODO не используй цифры в именовании классов -->
     <main class="main">
-      <section class="section-info">
-        <div class="container-info">
+      <section class="section">
+        <div class="container-tight">
           <div class="content-info">
             <div class="section-upper">
               <h1 class="section-header">Information</h1>
@@ -83,149 +83,160 @@
           <!-- @TODO не делай пустые / лишние обертки. Исправь по проекту-->
           <!-- @TODO вообще беда с классами: очень длинные, не основываются на родителе, порядок элементов указан как часть класса... -->
           <!-- @TODO вообще нет заголовков -->
-          <div class="section-color">
-            <div class="metro-upper">
-              <div class="metro-upper-left">
-                <h2 class="metro-title">PROJECT</h2>
-                <p class="metro-content">At vero eos et accusamus et iusto odio dignissimos accusamus et iusto odio
-                  dignissimos. At vero eos et accusamus et iusto odio dignissimos.</p>
-                <p class="metro-footer"><a href="/">AT VERO EOS ET ACCUSAM</a></p>
-              </div>
-              <div class="metro-upper-pic"><img src="https://via.placeholder.com/660x275" alt="metro-upper-pic"></div>
+      <div class="section-dark">
+        <div class="container">
+          <div class="metro">
+            <div class="metro-text">
+              <h2 class="metro-title">PROJECT</h2>
+              <p class="metro-content">At vero eos et accusamus et iusto odio dignissimos accusamus et iusto odio
+                dignissimos. At vero eos et accusamus et iusto odio dignissimos.</p>
+              <a href="/" class="metro-footer">AT VERO EOS ET ACCUSAM</a>
             </div>
-            <div class="metro-lower">
-              <div class="metro-lower-pic"><img src="https://via.placeholder.com/660x275" alt="metro-upper-pic"></div>
-              <div class="metro-upper-left">
-                <h2 class="metro-title">PROJECT</h2>
-                <p class="metro-content">At vero eos et accusamus et iusto odio dignissimos accusamus et iusto odio
-                  dignissimos. At vero eos et accusamus et iusto odio dignissimos.</p>
-                <p class="metro-footer"><a href="/">AT VERO EOS ET ACCUSAM</a></p>
-              </div>
-            </div>
+            <img src="https://via.placeholder.com/660x275" class="metro-pic" alt="metro-pic">
           </div>
-          <section class="section-price">
-            <h1 class="content-price-header">Price</h1>
-            <div class="content-price">
-              <div class="price">
-                <h1 class="price-column-header">START</h1>
-                <div class="price-column-content">
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="disable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="disable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="disable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <h1 class="price-column-content-text price-column-cost">100$</h1>
-                  <p class="price-column-content-text"><a href="/" class="price-column-choose">CHOOSE</a></p>
-                </div>
-              </div>
-              <div class="price">
-                <h1 class="price-column-header">MEDIUM</h1>
-                <div class="price-column-content">
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="enable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="disable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="disable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <h1 class="price-column-content-text price-column-cost">300$</h1>
-                  <p class="price-column-content-text"><a href="/" class="price-column-choose">CHOOSE</a></p>
-                </div>
-              </div>
-              <div class="price">
-                <h1 class="price-column-header">LARGE</h1>
-                <div class="price-column-content">
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="enable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="enable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="disable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <h1 class="price-column-content-text price-column-cost">500$</h1>
-                  <p class="price-column-content-text"><a href="/" class="price-column-choose">CHOOSE</a></p>
-                </div>
-              </div>
-              <div class="price">
-                <h1 class="price-column-header">PRO</h1>
-                <div class="price-column-content">
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="enable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="enable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <div class="price-column-content-text"><img src="https://via.placeholder.com/9x9" alt="disable"></div>
-                  <p class="price-column-content-text">At vero eos et accusamus et iusto odio dignissimos</p>
-                  <h1 class="price-column-content-text price-column-cost">1000$</h1>
-                  <p class="price-column-content-text"><a href="/" class="price-column-choose">CHOOSE</a></p>
-                </div>
-              </div>
-            </section>
-          <div class="section-sub">
-            <p class="sub-header">At vero eos et accusamus et iusto odio dignissimos At vero eos et accusamus et iusto odio dignissimos
-              ducimus qui blanditiis praesentium voluptatum deleniti.</p>
-            <form action="/" class="sub-submit">
-              <label for="sub-submit-input" class="sub-submit-input-label"></label>
-              <input type="text" placeholder="Enter your text" class="sub-submit-input" id="sub-submit-input">
-              <button type="submit" class="sub-submit-button">SUBSCRIBE</button>
-              <p class="sub-submit-validation">*field is empty</p>
-            </form>
-          </div>
-          <div class="section-contacts-feedback">
-            <div class="section-contacts">
-              <h1 class="section-contacts-header">Get in touch</h1>
-              <div class="contacts-map"><img src="https://via.placeholder.com/405x225" alt="contacts-map"></div>
-              <div class="section-contacts-contain">
-                <h2 class="section-contacts-contain-header">CONTACTS</h2>
-                <div class="section-contacts-adress">
-                  <div class="section-contacts-location">
-                    <div class="section-contacts-location-pic"><img src="https://via.placeholder.com/12x17" alt="section-contacts-location-pic"></div>
-                    <p class="section-contacts-location-title">Rainbow @ Sunset (N), Spring Valley, NV 89118, USA</p>
-                  </div>
-                  <div class="section-contacts-mail">
-                    <div class="section-contacts-mail-pic"><img src="https://via.placeholder.com/12x10" alt="section-contacts-mail-pic"></div>
-                    <p class="section-contacts-mail-title">out.mail@ma.il</p>
-                  </div>
-                  <div class="section-contacts-phone">
-                    <div class="section-contacts-phone-pic"><img src="https://via.placeholder.com/13x13" alt="section-contacts-phone-pic"></div>
-                    <p class="section-contacts-phone-title">+1 378 640-8795</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="section-feedback">
-              <h1 class="section-feedback-header">Mail us</h1>
-              <form action="/" class="section-feedback-form">
-                <div class="feedback-input-name">
-                  <label for="feedback-input-name" class="feedback-input-name-label"></label>
-                  <input type="text" placeholder="Name" id="feedback-input-name">
-                  <p class="feedback-input-name-validator">*field is empty</p>
-                </div>
-                <div class="feedback-input-mail">
-                  <label for="feedback-input-mail" class="feedback-input-mail-label"></label>
-                  <input type="text" placeholder="E-mail" id="feedback-input-mail">
-                  <p class="feedback-input-mail-validator">*field is empty</p>
-                </div>
-                <div class="feedback-input-textcontent">
-                  <label for="feedback-input-textcontent" class="feedback-input-textcontent-label"></label>
-                  <input type="text" placeholder="Your text" id="feedback-input-textcontent">
-                  <p class="feedback-input-textcontent-validator">*field is empty</p>
-                </div>
-                <div class="feedback-input-submit">
-                  <p class="feedback-input-comment">At vero eos at accu</p>
-                  <button type="submit" class="feedback-input-button">BUTTON</button>
-                </div>
-              </form>
+          <div class="metro-reverse">
+            <img src="https://via.placeholder.com/660x275" class="metro-pic" alt="metro-pic">
+            <div class="metro-text">
+              <h2 class="metro-title">PROJECT</h2>
+              <p class="metro-content">At vero eos et accusamus et iusto odio dignissimos accusamus et iusto odio
+                dignissimos. At vero eos et accusamus et iusto odio dignissimos.</p>
+              <a href="/" class="metro-footer">AT VERO EOS ET ACCUSAM</a>
             </div>
           </div>
         </div>
       </div>
+      <section class="section">
+        <div class="container">
+          <h1 class="price-title">Price</h1>
+          <div class="content-price">
+            <div class="price">
+              <h1 class="price-header">START</h1>
+              <div class="price-content">
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="disable" />
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="disable"/>
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="disable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <h1 class="price-cost">100$</h1>
+                <a href="/" class="price-choose">CHOOSE</a>
+              </div>
+            </div>
+            <div class="price">
+              <h1 class="price-header">MEDIUM</h1>
+              <div class="price-content">
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="enable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="disable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="disable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <h1 class="price-cost">300$</h1>
+                <a href="/" class="price-choose">CHOOSE</a>
+              </div>
+            </div>
+            <div class="price">
+              <h1 class="price-header">LARGE</h1>
+              <div class="price-content">
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="enable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="enable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="disable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <h1 class="price-cost">500$</h1>
+                <a href="/" class="price-choose">CHOOSE</a>
+              </div>
+            </div>
+            <div class="price">
+              <h1 class="price-header">PRO</h1>
+              <div class="price-content">
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="enable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="enable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <img src="https://via.placeholder.com/9x9" class="price-icon" alt="enable">
+                <p class="price-text">At vero eos et accusamus et iusto odio dignissimos</p>
+                <h1 class="price-cost">1000$</h1>
+                <a href="/" class="price-choose">CHOOSE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-dark">
+        <div class="container-tight">
+          <p class="subscribe-header">At vero eos et accusamus et iusto odio dignissimos At vero eos et accusamus et iusto odio dignissimos
+            ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+          <form action="/" class="subscribe-form">
+            <label for="subscribe-input" class="subscribe-label"></label>
+            <input type="text" placeholder="Enter your text" class="subscribe-input" id="subscribe-input">
+            <button type="submit" class="subscribe-button">SUBSCRIBE</button>
+            <p class="subscribe-validation">*field is empty</p>
+          </form>
+        </div>
+      </div>
+      
+      <section class="section">
+        <div class="container">
+          <div class="contacts">
+            <div class="contacts-feedback-block">
+              <div class="section-contacts">
+                <h1 class="section-contacts-header">Get in touch</h1>
+                <img src="https://via.placeholder.com/405x225" class="contacts-map" alt="contacts-map">
+                <div class="section-contacts-contain">
+                  <h2 class="section-contacts-contain-header">CONTACTS</h2>
+                  <div class="section-contacts-adress">
+                    <div class="section-contacts-location">
+                      <div class="section-contacts-location-pic"><img src="https://via.placeholder.com/12x17" alt="section-contacts-location-pic"></div>
+                      <p class="section-contacts-location-title">Rainbow @ Sunset (N), Spring Valley, NV 89118, USA</p>
+                    </div>
+                    <div class="section-contacts-mail">
+                      <div class="section-contacts-mail-pic"><img src="https://via.placeholder.com/12x10" alt="section-contacts-mail-pic"></div>
+                      <p class="section-contacts-mail-title">out.mail@ma.il</p>
+                    </div>
+                    <div class="section-contacts-phone">
+                      <div class="section-contacts-phone-pic"><img src="https://via.placeholder.com/13x13" alt="section-contacts-phone-pic"></div>
+                      <p class="section-contacts-phone-title">+1 378 640-8795</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-feedback">
+                <h1 class="section-feedback-header">Mail us</h1>
+                <form action="/" class="section-feedback-form">
+                  <div class="feedback-input-name">
+                    <label for="feedback-input-name" class="feedback-input-name-label"></label>
+                    <input type="text" placeholder="Name" id="feedback-input-name">
+                    <p class="feedback-input-name-validator">*field is empty</p>
+                  </div>
+                  <div class="feedback-input-mail">
+                    <label for="feedback-input-mail" class="feedback-input-mail-label"></label>
+                    <input type="text" placeholder="E-mail" id="feedback-input-mail">
+                    <p class="feedback-input-mail-validator">*field is empty</p>
+                  </div>
+                  <div class="feedback-input-textcontent">
+                    <label for="feedback-input-textcontent" class="feedback-input-textcontent-label"></label>
+                    <input type="text" placeholder="Your text" id="feedback-input-textcontent">
+                    <p class="feedback-input-textcontent-validator">*field is empty</p>
+                  </div>
+                  <div class="feedback-input-submit">
+                    <p class="feedback-input-comment">At vero eos at accu</p>
+                    <button type="submit" class="feedback-input-button">BUTTON</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- @TODO нет закрывающего тега див -->
     <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-content-nav">
-            <div class="footer-logo"><img src="https://via.placeholder.com/51" alt="footer-logo"></div>
+      <div class="footer-container">
+          <div class="footer-content">
+            <img src="https://via.placeholder.com/51" class="footer-logo" alt="footer-logo">
             <div class="footer-product">
               <h2 class="footer-product-header">PRODUCT</h2>
               <ul class="footer-product-content">
@@ -261,8 +272,7 @@
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
   </div>
 </body>
 </html>
